@@ -379,4 +379,8 @@ footer {
         #designskole {
             width: 100%;
         }
+
+        footer{
+            display: none;
+        }
     }
