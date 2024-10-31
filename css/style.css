@@ -110,7 +110,7 @@ header {
 }
 
 #navigation-mobile li a {
-    color: #000;
+    color:white;
     text-decoration: none;
 }
 
@@ -188,14 +188,37 @@ footer {
        float: right;
        clear: right;
     }
-
-
-
+    
     /* Logo */
     #logo2 {
         /* Set max-width to 60px */
         max-width: 60px;
     }
+
+    footer {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 1em;
+        background-color: black; 
+        color: white; 
+    }
+    
+    #navigation-mobile{
+        display: flex;
+    }
+
+    .footer-links{
+        display: flex;
+    }
+
+    .footer-links li{
+        margin: 0 1rem;
+    }
+
+
+
+
 }
 
 
